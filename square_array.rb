@@ -1,6 +1,6 @@
-def square_array(numbers_array)
-  numbers_array.each do |numbers|
-    puts "#{number}**"
+def square_array(array)
+  array.each do |numbers|
+    puts "#{number}**= number"
   end
 end
 
