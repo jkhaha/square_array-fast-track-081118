@@ -1,8 +1,10 @@
 def square_array(array)
-  array.each do |numbers| 
-    # take each number from the array of numbers
-    # puts "#{number}**= number"
+  return_array = []
+  array.each do |num| 
     # and square it....
+    # puts "#{number}**= number"
+  return_array.push num*num
+    # add the result to the return array
   end
 end
 
