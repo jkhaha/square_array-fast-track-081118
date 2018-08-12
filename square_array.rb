@@ -7,7 +7,3 @@ def square_array(array)
     # add the result to the return array
   end
 end
-
-
-square_array(numbers)
-numbers = [1,2,3,4]
