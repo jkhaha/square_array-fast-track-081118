@@ -62,5 +62,3 @@ end
 
 
 
-binding.pry
-puts "goodbye"
