@@ -4,11 +4,7 @@ require 'pry'
 # routine for the day, regarding wake up time, whether to 
 # go to work, and bedtime
 
-def print_routine(day)
-  wake_up_time(day)
-  go_to_work(day)
-  bedtime(day)
-end 
+
 
 def is_weekend?(day)
   day.start_with? "s"
@@ -50,6 +46,12 @@ end
 # how can we write two lines of code to print a routine for every day of the week?
 
 days_array = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+
+def print_routine(day)
+  wake_up_time(day)
+  go_to_work(day)
+  bedtime(day)
+end 
 
 days_array.each do |day|
   puts "Today is #{day}"
