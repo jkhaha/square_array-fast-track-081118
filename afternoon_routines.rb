@@ -54,6 +54,7 @@ days_array = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", 
 days_array.each do |day|
   puts "Today is #{day}"
   print_routine(day)
+  puts ""
 end 
 
 
